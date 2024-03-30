@@ -3,33 +3,32 @@
 # PrivCast
 Private Polling Application in Farcaster Frames powered by Secret Network
 
-## 5 min explainer + MVP Demo
-
-TODO: Need to record a video
-
 ## Problem
 
-
+Currently there is no solution to create private polls in farcaster. Private polls are necessary to create an environment where the users can vote and voice their opinions without revealing their identity. Privacy preserved polls are crucial in creating a social media platform of the new internet where the data privacy and data ownership is of utmost importance. There is a need for a permissionless and transparent system with a UX that is similar to the existing solutions so that users don't have friction in using this new solution for mass adoption. 
 
 ## Solution
 
-
+Private polls is facilitated by Trusted Execution Environments, managing the private states in Secret Smart contracts. Our application will be built using Next.js framework. We will be using Frames.js/Base on chain kit to build our frames and request signatures directly from the frame. We will use secret.js that relays transactions along with the user signature for the vote using the developer wallet. 
 
 ## Description
 
-
+PrivCast will be a native secret dApp. Everything from creating, voting and viewing results happens within the farcaster frame. Users can choose to create a frame either from the website or directly from the frame. Poll creators can choose an option to reveal the results during the voting period or reveal it once the poll ends. This provides more customization for the creators to set their poll to view realtime results or after reveal them after the poll ends. Poll creators or anyone can fund the gas to enable gasless voting for the polls. 
 
 ## Secret Network Integration Description
 
-Users can store their squads securely using FHE by Secret Network. Provided the low gas fees in Secret Network, all changes can be directly sponsored by Luffy creating a super clean UX where users can ensure permissionless privacy and data ownership with the same web2 like user experience. UX is not holding back web3 anymore. We have AA enabled walllets with social auth and passkeys for a seamless gaming experience. 
+I have done some research on how to make it as trustless as possible. There are several implementations to build this private voting system in faracster frames but the much secure ones require the user to redirect to a browser window to vote on a poll.
 
 ## Go-to-Market plan
 
-
+* Creating short form content and tutorials describing the process of creating a frame, voting on them and viewing results.
+* Will post the product in https://github.com/a16z/awesome-farcaster for more reach.
+* Talks about the product in meetups and conferences.
+* Will post blogs in Medium about the imporatance of privacy and private polling applications.
 
 ## Value capture for Secret Network ecosystem
 
-This product will serve as a great addition to the gaming products in the Secret Network ecosystem. The fantasy sports market is massive with the market size of $30.95B and monthly active user base of 2.2B where 1.2B are users of age 16-24. It has a compound annual growth rate of 13.8% and the market is expected to be $87.07B by 2031. Privacy in fantasy sports market is crucial and I believe Secret Network will play a pivotal role for this case.
+This will be one of the very first Secret applications built on Farcaster Frames. I think it will serve as an example for users to built more farcaster frames using Secret Network. After shipping this product successfully, I want to work on building a SDK for users to be able to build applications that can send secret tranasctions directly from the frame without redirecting to a new page. 
 
 ## Team members
 * Gabriel Antony Xaviour
@@ -42,7 +41,7 @@ https://app.luffyprotocol.com
 I have been building web3 applications for 3+ years. Having won 33+ hackathons, I have good experience building scalable applications from scratch. In the past 2 years, I have worked at BlitzCraftHQ and RPSLabs which is backed by OrangeDAO and Chainlink.
 
 ## Team Code Repos
-https://github.com/luffyprotocol
+https://github.com/privcast
 
 ## Team LinkedIn Profiles
 https://www.linkedin.com/in/gabriel-antony/
