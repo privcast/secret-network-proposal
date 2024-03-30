@@ -5,22 +5,19 @@ Private Polling Application in Farcaster Frames powered by Secret Network
 
 ## 5 min explainer + MVP Demo
 
+TODO: Need to record a video
 
 ## Problem
 
-<img width="1011" alt="image" src="https://github.com/luffyprotocol/secret-network-proposal/assets/79229998/6386325b-61a8-4965-8b50-65a0edecdf10">
+
 
 ## Solution
 
-<img width="1007" alt="Screenshot 2024-03-29 at 11 23 09 PM" src="https://github.com/luffyprotocol/secret-network-proposal/assets/79229998/2e30ab1c-305d-4c02-934f-a6aac7149560">
+
 
 ## Description
 
-Transparency and data privacy concerns are widespread in the sports betting industry, affecting user trust and competition integrity. Platforms like Fantasy Premier League concentrate user squads, making them exposed to breaches and untrustworthy approaches. Such breaches can lead to the unauthorized disclosure of personal data or retroactive changes to team makeup, changing competitive dynamics and harming the confidence of users.
 
-The solution depends on offering users increased transparency and data privacy protections. We hope to develop a sports betting environment that restores confidence, protects user privacy, and promotes integrity through the use of web3 technology and zero-knowledge proofs. This approach will allow all participants to place bets on sports with confidence, knowing that their data is safe and the competition is fair.
-
-Luffy is the only privacy preserved fantasy football solution in the market. Users can create squads and store them securely using Secret Network only submitting the hash of the squad on-chain. Users can place their bets on any EVM chain of their choice. Once the gameweek ends, we use chainlink to fetch player performance data from reliable sport APIs and compute the points of the players using our very own custom algorithm. Once the player points are posted on-chain, users can then fetch their squads from Secret Network by verifying their signature. Now the user can generate a zero knowledge proof and verify it on-chain to declare the points won without revealing their squad! Now they can claim the rewards based on the points that they earned. We have our cross-chain infrastructure setup using Hyperlane. This entire infrastructure is public, permissionless and automated.
 
 ## Secret Network Integration Description
 
@@ -28,7 +25,7 @@ Users can store their squads securely using FHE by Secret Network. Provided the 
 
 ## Go-to-Market plan
 
-<img width="1008" alt="image" src="https://github.com/luffyprotocol/secret-network-proposal/assets/79229998/f1bc1cdf-57df-4b34-b2c4-c262e4e1b4c1">
+
 
 ## Value capture for Secret Network ecosystem
 
@@ -51,15 +48,15 @@ https://github.com/luffyprotocol
 https://www.linkedin.com/in/gabriel-antony/
 
 ## Development Roadmap
-<img width="1007" alt="image" src="https://github.com/luffyprotocol/secret-network-proposal/assets/79229998/ec4c4630-0a3b-4b49-87dd-c6d215a47b59">
 
-I need 1 experienced frontend developer to build the UI. Having good knowledge with the technicalities, I can build the backend myself. I have already hired video editor/content creator/ui designer for $200/month to handle marketing, social media and outreach.
 
-Ideally, we can receive payments in 2 disbursements, one at the beginning of the grant, one after the beta launch at the end of Q2.
+I don't need any developers, I can build it myself. I have already hired video editor/content creator/ui designer for $200/month to handle marketing, social media and outreach.
+
+Ideally, we can receive payments in 2 disbursements, one at the beginning of the grant, one after the beta launch of the product.
 
 ## Additional Information
 
-The main vision is to build this project and ship it as soon as possible to apply for the Alliance DAO accelerator Cohort 13. We have our MVP ready and we need to take this product to the next stage and to the market hopefully by the end of the year. Currently we have partnerships with Aztec. Pushing for more protocols that we use in our product. 
+This project was the finalist of the ETHGlobal Circuit Breaker 2024 Hackathon. There is an actual need for private polling in farcaster. This app is a fully 
 
 ## Important Links
 
